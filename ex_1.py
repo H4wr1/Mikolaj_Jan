@@ -1,6 +1,6 @@
 def hello(a: str) -> str:
-    # TODO
-    return "Hello Ola"
+
+    return "Hello " + a
 
 
 # assert hello("Ola") == "Hello Ola"
