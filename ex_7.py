@@ -4,5 +4,11 @@
 # jesli sie da, zwroc True
 
 def wykres(wykres) -> bool:
-    # TODO
-    return False
+    x1, y1 = wykres[0]
+    x2, y2 = wykres[1]
+    x3, y3 = wykres[2]
+    if (y2 - y1) * (x3 - x2) == (y3 - y2) * (x2 - x1):
+        return True
+    else:
+        return False
+
